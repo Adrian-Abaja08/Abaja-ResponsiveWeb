@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("download (4).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+.login-container {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 380px;
+}
+
+/* CENTERED TEXTS */
+.login-box h2 {
+  color: #fc0000;
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.login-box p {
+  margin-bottom: 20px;
+  color: #555;
+  text-align: center;
+}
+
+.input-group label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+  color: #333;
+  text-align: left;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 10px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  outline: none;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.forgotpass {
+  text-align: right;
+  margin-bottom: 15px;
+  font-size: 0.8rem;
+}
+
+.button {
+  width: 100%;
+  padding: 12px;
+  background: #fc0000;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background: #d40000;
+}
+
+.signup-link {
+  display: block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #555;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .login-container {
+    padding: 25px 20px;
+  }
+}
